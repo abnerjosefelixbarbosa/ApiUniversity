@@ -26,7 +26,7 @@ Java 8
 git clone 
 
 # exercutar o projeto
-main/
+src/main/java/com/edu/university/UniversityApplication.java
 ```
 # Autor
 
