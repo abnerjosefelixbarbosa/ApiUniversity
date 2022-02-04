@@ -23,7 +23,7 @@ Java 8
 
 ```java
 # clonar repositório
-git clone 
+git clone https://github.com/abnerjosefelixbarbosa/ApiUniversity.git
 
 # exercutar o projeto
 src/main/java/com/edu/university/UniversityApplication.java
