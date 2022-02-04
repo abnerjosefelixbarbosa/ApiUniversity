@@ -38,9 +38,9 @@ public class Student {
     private String email;
     private boolean accepted;
     @NotNull(message = "Gradation  requered.")
-    private String gradation ;
+    private String graduation ;
     @NotNull(message = "Postgradation requered.")
-    private String posGraduacao;
+    private String posGraduation;
     @NotNull(message = "Diploma requered.")
     private String diploma;
 }
