@@ -5,11 +5,7 @@
 
 ApiUniversity é uma API construida com spring boot conectada a um banco de dados para registra e alterar informações da inscrição dos estudantes para curso de graduação ou pós-graduação.
 
-#
-
-# Tecnologias Utilizadas
-
-## Back end
+# Features
 
 - Java
 - Spring Boot
@@ -17,6 +13,12 @@ ApiUniversity é uma API construida com spring boot conectada a um banco de dado
 - Maven
 - Lombok
 - MySQL
+- PostgreSQL
+- Listar todos os estudantes.
+- Listar todos as inscrições.
+- Editar dados dos estudantes.
+- Savar dados dos estidantes.
+- Savar dados das inscrições.
 
 ## Implatação
 
