@@ -13,6 +13,6 @@ public class Inscription {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @ManyToOne
-    @JoinColumn(name = "student_id")
+    @JoinColumn(name = "tb_student")
     private Student student;
 }

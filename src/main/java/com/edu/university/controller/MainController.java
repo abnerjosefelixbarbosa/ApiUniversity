@@ -2,7 +2,6 @@ package com.edu.university.controller;
 
 import com.edu.university.entity.Inscription;
 import com.edu.university.entity.Student;
-import com.edu.university.repository.RepositoryInscription;
 import com.edu.university.service.MainService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -28,12 +27,6 @@ public class MainController {
     public ResponseEntity<Student> saveStudent(@Valid @RequestBody Student data) {
         Student val = ms.saveStudent(data);
         return new ResponseEntity<Student>(val,HttpStatus.OK);
-    }
-
-    @GetMapping(value = "/student/{id}")
-    public ResponseEntity<Student> getStudent(@PathVariable long id) {
-        Student data = ms.getStudent(id);
-        return new ResponseEntity<Student>(data,HttpStatus.OK);
     }
 
     @GetMapping(value = "/inscription")

@@ -17,10 +17,18 @@ public class DbConfiguration {
 
     @Profile("mysql")
     @Bean
-    public String MySQLConnection() {
+    public String mySqlConnection() {
         System.out.println("MYSQL Database");
         System.out.println(driverClassName);
         System.out.println(url);
         return "Connection to MySql";
+    }
+
+    @Profile("postgresql")
+    @Bean
+    public String postgreSqlConnection() {
+        System.out.println("PostgreSql Database");
+        System.out.println(url);
+        return "Connection to PostgreSql";
     }
 }

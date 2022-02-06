@@ -1,11 +1,14 @@
 package com.edu.university.entity;
 
 import lombok.Data;
+import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 @Data
@@ -41,6 +44,6 @@ public class Student {
     private String graduation ;
     @NotNull(message = "Postgradation requered.")
     private String posGraduation;
-    @NotNull(message = "Diploma requered.")
-    private String diploma;
+    @NotNull(message = "Institution requered.")
+    private String institution;
 }

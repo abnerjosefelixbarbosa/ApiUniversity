@@ -31,8 +31,4 @@ public class MainService {
     public List<Student> listStudent() {
         return rs.findAll();
     }
-
-    public Student getStudent(long id) {return rs.findById(id).get();}
-
-    public Student editStudent(long id) {return rs.findById(id).get();}
 }
