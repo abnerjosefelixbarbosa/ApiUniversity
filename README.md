@@ -5,11 +5,11 @@
 
 ApiUniversity é uma API construida com spring boot conectada a um banco de dados para registra e alterar informações da inscrição dos estudantes para curso de graduação ou pós-graduação.
 
-#
+## Modelo conceitual
 
-# Tecnologias Utilizadas
+![Modelo](https://github.com/abnerjosefelixbarbosa/assents/blob/main/modelo.png)
 
-## Back end
+# Features
 
 - Java
 - Spring Boot
@@ -17,8 +17,39 @@ ApiUniversity é uma API construida com spring boot conectada a um banco de dado
 - Maven
 - Lombok
 - MySQL
+- PostgreSQL
+- Listar todos os estudantes.
+- Listar todos as inscrições.
+- Editar dados dos estudantes.
+- Savar dados dos estidantes.
+- Savar dados das inscrições.
 
 ## Implatação
+
+# Modo de comsumo
+
+## Estudante
+
+{
+	"name": "Carlos",
+	"nameMother": "Marcia",
+	"nameFather": "Pereira",
+	"matriculation": "000000000",
+	"rg": "1121212",
+	"cpf": "760.654.560-04",
+	"email": "abner@gmail.com",
+	"graduation": "Sistema de informação",
+	"posGraduation": "",
+	"institution": ""
+}
+
+## Inscrição
+
+{
+	"student": {
+		"id": 1
+  }
+}
 
 # Execução do projeto
 
