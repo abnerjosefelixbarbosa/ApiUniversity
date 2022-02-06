@@ -28,31 +28,47 @@ ApiUniversity é uma API construida com spring boot conectada a um banco de dado
 
 Heroku
 
-https://sprigboot-postgre-heroku.herokuapp.com/university
+https://sprigboot-postgre-heroku.herokuapp.com/university/student
+https://sprigboot-postgre-heroku.herokuapp.com/university/inscription
 
 # Modo de comsumo
 
 ## Estudante
 
 {
+
 	"name": "Carlos",
+
 	"nameMother": "Marcia",
+
 	"nameFather": "Pereira",
+
 	"matriculation": "000000000",
+
 	"rg": "1121212",
+
 	"cpf": "760.654.560-04",
+
 	"email": "abner@gmail.com",
+
 	"graduation": "Sistema de informação",
+
 	"posGraduation": "",
+
 	"institution": ""
+
 }
 
 ## Inscrição
 
 {
+
 	"student": {
+
 		"id": 1
+
   }
+
 }
 
 # Execução do projeto
