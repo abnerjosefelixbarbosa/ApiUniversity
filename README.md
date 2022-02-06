@@ -26,6 +26,8 @@ ApiUniversity é uma API construida com spring boot conectada a um banco de dado
 
 ## Implatação
 
+Heroku
+
 https://sprigboot-postgre-heroku.herokuapp.com/university
 
 # Modo de comsumo
