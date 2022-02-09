@@ -57,8 +57,8 @@ ApiUniversity é uma API construida com spring boot conectada a um banco de dado
 
 {
 
+        "id": 1 
 	"student": {
-
 		"id": 1
 	}
 
