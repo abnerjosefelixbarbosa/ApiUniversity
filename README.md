@@ -18,19 +18,12 @@ ApiUniversity é uma API construida com spring boot conectada a um banco de dado
 - Lombok
 - MySQL
 - PostgreSQL
+- IDE IntelliJ
 - Listar todos os estudantes.
 - Listar todos as inscrições.
 - Editar dados dos estudantes.
 - Savar dados dos estidantes.
 - Savar dados das inscrições.
-
-## Implatação
-
-Heroku
-
-https://sprigboot-postgre-heroku.herokuapp.com/university/student
-
-https://sprigboot-postgre-heroku.herokuapp.com/university/inscription
 
 # Modo de comsumo
 
@@ -50,7 +43,7 @@ https://sprigboot-postgre-heroku.herokuapp.com/university/inscription
 
 	"cpf": "760.654.560-04",
 
-	"email": "abner@gmail.com",
+	"email": "a@gmail.com",
 
 	"graduation": "Sistema de informação",
 
@@ -67,8 +60,7 @@ https://sprigboot-postgre-heroku.herokuapp.com/university/inscription
 	"student": {
 
 		"id": 1
-
-  }
+	}
 
 }
 
