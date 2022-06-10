@@ -79,5 +79,5 @@ src/main/java/com/edu/university/UniversityApplication.java
 
 Abner José Felix Barbosa
 
-https://www.linkedin.com/in/abner-jose-feliz-barbosa-552a17166/
+https://www.linkedin.com/in/abner-jose-feliz-barbosa/
 
